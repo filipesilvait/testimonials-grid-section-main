@@ -74,24 +74,23 @@ p.bold {
     padding: 25px;
 }
 
-.main--container {
+.main-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-.section--container {
+.section-container {
     display: flex;
     gap: 2.3rem;
 }
 
-.section--container-3 {
+.section-container-3 {
     display: flex;
     width: 75%;
 }
 
-.container--geral {
+.container-geral {
     display: flex;
     gap: 3rem;
 }
-
