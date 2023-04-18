@@ -4,6 +4,10 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+body {
+    background-color: hsl(0, 0%, 81%);
+}
+
 .flex {
     display: flex;
 }
@@ -18,6 +22,18 @@
 .testimonial {
     background-color: wheat;
     text-align: center;
+}
+
+.testimonial.quote {
+    background-image: url("assets/img/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+}
+
+.testimonial img {
+    width: 3.5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
 }
 
 .one {
