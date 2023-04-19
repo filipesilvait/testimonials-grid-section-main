@@ -8,11 +8,37 @@ body {
     background-color: hsl(0, 0%, 81%);
 }
 
+.testimonial.one {
+    position: relative;
+    background-color: hsl(263, 55%, 52%);
+}
+
+.testimonial.two {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.testimonial.three {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.testimonial.four {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.testimonial.five {
+    background-color: hsl(0, 0%, 100%);
+}
+
 .flex {
     display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .container-grid {
+    justify-content: center;
+    margin: 125px auto 125px auto;
+    max-width: 1240px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px 10px;
@@ -20,8 +46,9 @@ body {
 }
 
 .testimonial {
-    background-color: wheat;
     text-align: center;
+    border-radius: 0.7rem;
+    padding: 1.5rem;
 }
 
 .testimonial.quote {
@@ -32,7 +59,6 @@ body {
 
 .testimonial img {
     width: 3.5rem;
-    aspect-ratio: 1;
     border-radius: 50%;
 }
 
